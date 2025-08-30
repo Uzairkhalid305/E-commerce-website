@@ -50,7 +50,7 @@ if (isset($_POST['checkout'])) {
     }
   }
   $confirmation = "✅ Order confirmed! Total: $" . number_format($total, 2);
-  $_SESSION['cart'] = []; // clear cart
+  $_SESSION['cart'] = [];
 }
 ?>
 <!DOCTYPE html>
